@@ -1,11 +1,11 @@
 export const SOCIAL_LINKS = [
-  { label: "Facebook", short: "f", href: "https://www.facebook.com/tofnova" },
-  { label: "X", short: "𝕏", href: "https://x.com/TofNova" },
-  { label: "LinkedIn", short: "in", href: "https://www.linkedin.com/in/tofnova/" },
-  { label: "Google Sites", short: "G", href: "https://sites.google.com/view/tofnova" },
-  { label: "Tumblr", short: "t", href: "https://www.tumblr.com/tofnova" },
-  { label: "Reddit", short: "r", href: "https://www.reddit.com/u/tofnova/" },
-  { label: "Twitch", short: "tw", href: "https://m.twitch.tv/tofnova/home" },
+  { label: "Facebook", short: "fa-brands fa-facebook-f", href: "https://www.facebook.com/tofnova" },
+  { label: "X", short: "fa-brands fa-x-twitter", href: "https://x.com/TofNova" },
+  { label: "LinkedIn", short: "fa-brands fa-linkedin-in", href: "https://www.linkedin.com/in/tofnova/" },
+  { label: "Google Sites", short: "fa-brands fa-google", href: "https://sites.google.com/view/tofnova" },
+  { label: "Tumblr", short: "fa-brands fa-tumblr", href: "https://www.tumblr.com/tofnova" },
+  { label: "Reddit", short: "fa-brands fa-reddit", href: "https://www.reddit.com/u/tofnova/" },
+  { label: "Twitch", short: "fa-brands fa-twitch", href: "https://m.twitch.tv/tofnova/home" },
 ];
 
 export const BUDGET_OPTIONS = [

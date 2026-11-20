@@ -5,7 +5,7 @@ export default function SocialLinks() {
     <div className="social-row">
       {SOCIAL_LINKS.map((s) => (
         <a key={s.label} href={s.href} target="_blank" rel="noopener noreferrer" aria-label={s.label} title={s.label}>
-          {s.short}
+          <i className={s.short}></i>
         </a>
       ))}
     </div>

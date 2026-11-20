@@ -1,5 +1,5 @@
 /** Founder / team member card. */
-export default function TeamCard({ name, photo, alt, role, experience, skills }) {
+export default function TeamCard({ name, photo, alt, role, experience, skills, contact }) {
   return (
     <article className="team-card reveal">
       <div className="team-photo">
@@ -14,6 +14,20 @@ export default function TeamCard({ name, photo, alt, role, experience, skills })
             <span key={s}>{s}</span>
           ))}
         </div>
+      </div>
+      <div className="socal">
+        {contact.map((c => (
+     
+
+            <div onClick={() => window.location.href = c.url} title={c.lable} style={{ backgroundColor: c.color }}>
+              <div className="popp">
+                {c.lable}
+              </div>
+              <i className={c.icon + " icon"}></i>
+            </div>
+          
+
+        )))}
       </div>
     </article>
   );
